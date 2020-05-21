@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Final_Details">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+        <androidx.cardview.widget.CardView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_centerInParent="true">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:paddingHorizontal="150dp"
+                android:paddingBottom="150dp">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow
+
+                        android:id="@+id/firstRow"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <!-- first element of the row-->
+                        <TextView
+
+
+                            android:layout_width="175dp"
+                            android:layout_height="wrap_content"
+
+                            android:padding="18dip"
+                            android:text="Device Number"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="20dp" />
+
+                        <TextView
+
+
+                            android:layout_width="175dp"
+                            android:layout_height="wrap_content"
+
+                            android:padding="18dip"
+                            android:text="2345"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20dp"
+                            android:id="@+id/device_no._id"/>
+
+                    </TableRow>
+                    <TableRow
+
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <!-- first element of the row-->
+                        <TextView
+
+
+                            android:layout_width="175dp"
+                            android:layout_height="wrap_content"
+                            android:padding="18dip"
+                            android:text="Last Updated"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="20dp" />
+
+                        <TextView
+
+
+                            android:layout_width="175dp"
+                            android:layout_height="wrap_content"
+
+                            android:padding="18dip"
+                            android:text="8:00 AM"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20dp"
+                            android:id="@+id/last_updated_id"/>
+
+                    </TableRow>
+                    <TableRow
+
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <!-- first element of the row-->
+                        <TextView
+
+
+                            android:layout_width="175dp"
+                            android:layout_height="wrap_content"
+                            android:padding="18dip"
+                            android:text="pH Value"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="20dp" />
+
+                        <TextView
+
+
+                            android:layout_width="175dp"
+                            android:layout_height="wrap_content"
+
+                            android:padding="18dip"
+                            android:text="5.5"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20dp"
+                            android:id="@+id/pH_value_id"/>
+
+                    </TableRow>
+                    <TableRow
+
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <!-- first element of the row-->
+                        <TextView
+
+
+                            android:layout_width="175dp"
+                            android:layout_height="wrap_content"
+                            android:padding="18dip"
+                            android:text="Turbidity Value"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="20dp" />
+
+                        <TextView
+
+
+                            android:layout_width="175dp"
+                            android:layout_height="wrap_content"
+
+                            android:padding="18dip"
+                            android:text="0.2 NTU"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20dp"
+                            android:id="@+id/turbidity_val_id"/>
+
+                    </TableRow>
+                    <TableRow
+
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <!-- first element of the row-->
+                        <TextView
+
+
+                            android:layout_width="175dp"
+                            android:layout_height="wrap_content"
+                            android:padding="18dip"
+                            android:text="Status"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="20dp" />
+
+                        <TextView
+
+
+                            android:layout_width="175dp"
+                            android:layout_height="wrap_content"
+
+                            android:padding="18dip"
+                            android:text="safe"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20dp"
+                            android:id="@+id/status_id"/>
+
+                    </TableRow>
+
+                </TableLayout>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:id="@+id/feedback_id"
+            android:text="Send Feedback"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:background="@drawable/ripple_effect"
+            >
+
+        </Button>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

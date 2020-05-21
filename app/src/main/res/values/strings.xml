@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">AQUAM</string>
+
+
+    <string name="country_prompt">Choose a country</string>
+
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+    <string name="Intro">
+        AQUAM - Aqua Quality Monitor.
+    </string>
+    <string name="Intro1">
+         It tells the users about the real-time quality parameters of the water,they use daily.
+    </string>
+    <string name="or_str">
+OR    </string>
+    <string name="add_device">
+         Click here to add a new device
+    </string>
+
+    <string name="add_city">
+         Click here to add a new city
+    </string>
+
+    <string name="select_city">
+         Select City From the drop down Menu.
+    </string>
+
+    <string name="select_area">
+         Select Area From the drop down Menu.
+    </string>
+
+
+</resources>
